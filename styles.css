@@ -541,6 +541,19 @@ body {
     color: white;
 }
 
+.bluesky-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.bluesky-icon {
+    width: 16px;
+    height: 16px;
+    flex-shrink: 0;
+    vertical-align: middle;
+}
+
 .footer-bottom {
     border-top: 1px solid rgba(255, 255, 255, 0.1);
     padding-top: 1.5rem;
