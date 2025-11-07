@@ -1,228 +1,337 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Grow With Pico - Tiny Tools for Growing Shops</title>
-    <meta name="description" content="Tiny tools built for growing Shopify stores. The 20% of features that deliver 80% of results. Minimal tools, maximum growth.">
-    <link rel="icon" type="image/png" href="crossbill_logo.png">
-    <link rel="stylesheet" href="styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-</head>
-<body>
-    <!-- Navigation -->
-    <nav class="navbar">
-        <div class="container">
-            <div class="nav-content">
-                <div class="logo">
-                    <a href="#home"><img src="crossbill_logo.png" alt="Pico Tools" class="logo-img"></a>
-                </div>
-                <ul class="nav-links">
-                    <li><a href="#apps">Apps</a></li>
-                    <li><a href="#features">About</a></li>
-                    <li><a href="mailto:brendan@growwithpico.com">Contact</a></li>
-                    <li><a href="https://apps.shopify.com" class="btn-primary-nav">View Apps</a></li>
-                </ul>
-                <button class="mobile-menu-toggle" aria-label="Toggle menu">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </button>
-            </div>
-        </div>
-    </nav>
-
-    <!-- Hero Section -->
-    <section id="home" class="hero">
-        <div class="container">
-            <div class="hero-content">
-                <h1 class="hero-title">Grow With Pico</h1>
-                <p class="hero-subtitle">Tiny tools built for growing Shopify stores.</p>
-                <p class="hero-tagline">The 20% of features that deliver 80% of results.</p>
-                <div class="hero-buttons">
-                    <a href="#apps" class="btn-primary">View Apps</a>
-                    <a href="#features" class="btn-secondary">Learn More</a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Apps Section -->
-    <section id="apps" class="apps-section">
-        <div class="container">
-            <h2 class="section-title">Tiny Tools for Growing Shops</h2>
-            <p class="section-subtitle">Essential features. No bloat. Built for action.</p>
-            
-            <div class="apps-grid">
-                <!-- Pico Inventory -->
-                <div class="app-card featured">
-                    <div class="app-badge">Available Now</div>
-                    <div class="app-icon">📦</div>
-                    <h3 class="app-title">Pico Inventory</h3>
-                    <p class="app-subtitle">Never run out of stock.</p>
-                    <p class="app-description">Pico Inventory is the tiny forecasting tool for growing Shopify stores. No spreadsheets. No guesswork. Just smart alerts when you need them.</p>
-                    <div class="app-tags">
-                        <span class="tag">INVENTORY</span>
-                        <span class="tag">ALERTS</span>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Grow With Pico - Tiny Tools for Growing Shops</title>
+        <meta
+            name="description"
+            content="Tiny tools built for growing Shopify stores. The 20% of features that deliver 80% of results. Minimal tools, maximum growth."
+        />
+        <link rel="icon" href="favicon.ico" />
+        <link rel="manifest" href="manifest.webmanifest" />
+        <link rel="stylesheet" href="styles.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+            rel="stylesheet"
+        />
+    </head>
+    <body>
+        <!-- Navigation -->
+        <nav class="navbar">
+            <div class="container">
+                <div class="nav-content">
+                    <div class="logo">
+                        <a href="#home"
+                            ><img
+                                src="images/crossbill_logo.png"
+                                alt="Pico Tools"
+                                class="logo-img"
+                        /></a>
                     </div>
-                    <a href="https://apps.shopify.com" class="app-link">View App →</a>
-                </div>
-
-                <!-- Coming Soon App 1 -->
-                <div class="app-card coming-soon">
-                    <div class="app-badge coming-soon-badge">Coming Soon</div>
-                    <div class="app-icon">📊</div>
-                    <h3 class="app-title">Pico Analytics</h3>
-                    <p class="app-description">The essential metrics you need to grow. No dashboard overwhelm—just the numbers that matter.</p>
-                    <div class="app-tags">
-                        <span class="tag">ANALYTICS</span>
-                        <span class="tag">INSIGHTS</span>
-                    </div>
-                    <div class="app-link disabled">Coming Soon</div>
-                </div>
-
-                <!-- Coming Soon App 2 -->
-                <div class="app-card coming-soon">
-                    <div class="app-badge coming-soon-badge">Coming Soon</div>
-                    <div class="app-icon">⭐</div>
-                    <h3 class="app-title">Pico Reviews</h3>
-                    <p class="app-description">Collect and display reviews the simple way. Built for growing shops that need results, not features.</p>
-                    <div class="app-tags">
-                        <span class="tag">REVIEWS</span>
-                        <span class="tag">TRUST</span>
-                    </div>
-                    <div class="app-link disabled">Coming Soon</div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Features Section -->
-    <section id="features" class="features-section">
-        <div class="container">
-            <h2 class="section-title">The Pico Way</h2>
-            <div class="features-grid">
-                <div class="feature-card">
-                    <div class="feature-icon">🎯</div>
-                    <h3>Small on Purpose</h3>
-                    <p>We're small on purpose. Minimal tools, maximum growth. The 20% that delivers 80% of results.</p>
-                </div>
-                <div class="feature-card">
-                    <div class="feature-icon">✨</div>
-                    <h3>No Bloat</h3>
-                    <p>While others bloat their apps with features you'll never use, we obsess over building the smallest thing that actually works.</p>
-                </div>
-                <div class="feature-card">
-                    <div class="feature-icon">⚡</div>
-                    <h3>Built for Action</h3>
-                    <p>Does what it says, nothing more. Essential features for growing shops that need results, not complexity.</p>
-                </div>
-                <div class="feature-card">
-                    <div class="feature-icon">🚀</div>
-                    <h3>Growth-Minded</h3>
-                    <p>Built for businesses that are going places. Pico-sized pricing. Macro-sized results.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- About Section -->
-    <section id="about" class="about-section">
-        <div class="container">
-            <div class="about-content">
-                <h2 class="section-title">We're small on purpose.</h2>
-                <div class="about-text">
-                    <p>While others bloat their apps with features you'll never use, we obsess over building the smallest thing that actually works.</p>
-                    <p>That's the Pico way: minimal tools, maximum growth.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Testimonials Section -->
-    <section class="testimonials-section">
-        <div class="container">
-            <h2 class="section-title">Trusted by Growing Shops</h2>
-            <div class="testimonials-grid">
-                <div class="testimonial-card">
-                    <div class="stars">⭐⭐⭐⭐⭐</div>
-                    <p class="testimonial-text">"I was losing sales because I kept running out of popular items. Pico Inventory sends me alerts before it's too late, and I actually trust them. Game changer for my business."</p>
-                    <p class="testimonial-author">— Sarah Chen, Artisan Goods Co.</p>
-                </div>
-                <div class="testimonial-card">
-                    <div class="stars">⭐⭐⭐⭐⭐</div>
-                    <p class="testimonial-text">"Simple, clean interface. No clutter. I can see what I need at a glance and actually understand what it's telling me. More apps should be like this."</p>
-                    <p class="testimonial-author">— Mike Rodriguez, Urban Essentials</p>
-                </div>
-                <div class="testimonial-card">
-                    <div class="stars">⭐⭐⭐⭐⭐</div>
-                    <p class="testimonial-text">"5 minute setup, and it just works. No complicated settings or confusing options. Tells me when to reorder, and I do. That's it."</p>
-                    <p class="testimonial-author">— Emily Park, Bloom Boutique</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- CTA Section -->
-    <section class="cta-section">
-        <div class="container">
-            <div class="cta-content">
-                <h2>Ready to Grow Your Shop?</h2>
-                <p>Start with Pico Inventory. Never run out of stock again.</p>
-                <a href="https://apps.shopify.com" class="btn-primary large">Get Started Now</a>
-            </div>
-        </div>
-    </section>
-
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="container">
-            <div class="footer-content">
-                <div class="footer-section">
-                    <h3>Grow With Pico</h3>
-                    <p>Tiny tools for growing shops.</p>
-                    <p class="footer-tagline">The 20% of features that deliver 80% of results.</p>
-                </div>
-                <div class="footer-section">
-                    <h4>Products</h4>
-                    <ul>
-                        <li><a href="#apps">Pico Inventory</a></li>
-                        <li><a href="#apps">Pico Analytics</a></li>
-                        <li><a href="#apps">Pico Reviews</a></li>
-                        <li><a href="https://apps.shopify.com">Shopify App Store</a></li>
-                    </ul>
-                </div>
-                <div class="footer-section">
-                    <h4>Company</h4>
-                    <ul>
+                    <ul class="nav-links">
+                        <li><a href="#apps">Apps</a></li>
                         <li><a href="#features">About</a></li>
-                        <li><a href="mailto:brendan@growwithpico.com">Contact</a></li>
+                        <li>
+                            <a href="mailto:brendan@growwithpico.com"
+                                >Contact</a
+                            >
+                        </li>
+                        <li>
+                            <a
+                                href="https://apps.shopify.com"
+                                class="btn-primary-nav"
+                                >View Apps</a
+                            >
+                        </li>
                     </ul>
-                </div>
-                <div class="footer-section">
-                    <h4>Connect</h4>
-                    <ul>
-                        <li><a href="https://bsky.app/profile/growwithpico.bsky.social" target="_blank" class="bluesky-link">
-                            <img src="Bluesky_Logo.svg" alt="Bluesky" class="bluesky-icon">
-                            @growwithpico
-                        </a></li>
-                        <li><a href="mailto:brendan@growwithpico.com">Suggest an App</a></li>
-                    </ul>
+                    <button class="mobile-menu-toggle" aria-label="Toggle menu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
                 </div>
             </div>
-            <div class="footer-bottom">
-                <p>&copy; 2025 Pico Tools. All rights reserved.</p>
-                <div class="footer-links">
-                    <a href="terms.html">Terms of Service</a>
-                    <a href="privacy.html">Privacy Policy</a>
-                </div>
-            </div>
-        </div>
-    </footer>
+        </nav>
 
-    <script src="script.js"></script>
-</body>
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h1 class="hero-title">Grow With Pico</h1>
+                    <p class="hero-subtitle">
+                        Tiny tools built for growing Shopify stores.
+                    </p>
+                    <p class="hero-tagline">
+                        The 20% of features that deliver 80% of results.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#apps" class="btn-primary">View Apps</a>
+                        <a href="#features" class="btn-secondary">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Apps Section -->
+        <section id="apps" class="apps-section">
+            <div class="container">
+                <h2 class="section-title">Tiny Tools for Growing Shops</h2>
+                <p class="section-subtitle">
+                    Essential features. No bloat. Built for action.
+                </p>
+
+                <div class="apps-grid">
+                    <!-- Pico Inventory -->
+                    <div class="app-card featured">
+                        <div class="app-badge">Available Now</div>
+                        <div class="app-icon">📦</div>
+                        <h3 class="app-title">Pico Inventory</h3>
+                        <p class="app-subtitle">Never run out of stock.</p>
+                        <p class="app-description">
+                            Pico Inventory is the tiny forecasting tool for
+                            growing Shopify stores. No spreadsheets. No
+                            guesswork. Just smart alerts when you need them.
+                        </p>
+                        <div class="app-tags">
+                            <span class="tag">INVENTORY</span>
+                            <span class="tag">ALERTS</span>
+                        </div>
+                        <a href="https://apps.shopify.com" class="app-link"
+                            >View App →</a
+                        >
+                    </div>
+
+                    <!-- Coming Soon App 1 -->
+                    <div class="app-card coming-soon">
+                        <div class="app-badge coming-soon-badge">
+                            Coming Soon
+                        </div>
+                        <div class="app-icon">📊</div>
+                        <h3 class="app-title">Pico Analytics</h3>
+                        <p class="app-description">
+                            The essential metrics you need to grow. No dashboard
+                            overwhelm—just the numbers that matter.
+                        </p>
+                        <div class="app-tags">
+                            <span class="tag">ANALYTICS</span>
+                            <span class="tag">INSIGHTS</span>
+                        </div>
+                        <div class="app-link disabled">Coming Soon</div>
+                    </div>
+
+                    <!-- Coming Soon App 2 -->
+                    <div class="app-card coming-soon">
+                        <div class="app-badge coming-soon-badge">
+                            Coming Soon
+                        </div>
+                        <div class="app-icon">⭐</div>
+                        <h3 class="app-title">Pico Reviews</h3>
+                        <p class="app-description">
+                            Collect and display reviews the simple way. Built
+                            for growing shops that need results, not features.
+                        </p>
+                        <div class="app-tags">
+                            <span class="tag">REVIEWS</span>
+                            <span class="tag">TRUST</span>
+                        </div>
+                        <div class="app-link disabled">Coming Soon</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Features Section -->
+        <section id="features" class="features-section">
+            <div class="container">
+                <h2 class="section-title">The Pico Way</h2>
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon">🎯</div>
+                        <h3>Small on Purpose</h3>
+                        <p>
+                            We're small on purpose. Minimal tools, maximum
+                            growth. The 20% that delivers 80% of results.
+                        </p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">✨</div>
+                        <h3>No Bloat</h3>
+                        <p>
+                            While others bloat their apps with features you'll
+                            never use, we obsess over building the smallest
+                            thing that actually works.
+                        </p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">⚡</div>
+                        <h3>Built for Action</h3>
+                        <p>
+                            Does what it says, nothing more. Essential features
+                            for growing shops that need results, not complexity.
+                        </p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">🚀</div>
+                        <h3>Growth-Minded</h3>
+                        <p>
+                            Built for businesses that are going places.
+                            Pico-sized pricing. Macro-sized results.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about-section">
+            <div class="container">
+                <div class="about-content">
+                    <h2 class="section-title">We're small on purpose.</h2>
+                    <div class="about-text">
+                        <p>
+                            While others bloat their apps with features you'll
+                            never use, we obsess over building the smallest
+                            thing that actually works.
+                        </p>
+                        <p>
+                            That's the Pico way: minimal tools, maximum growth.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials Section -->
+        <section class="testimonials-section">
+            <div class="container">
+                <h2 class="section-title">Trusted by Growing Shops</h2>
+                <div class="testimonials-grid">
+                    <div class="testimonial-card">
+                        <div class="stars">⭐⭐⭐⭐⭐</div>
+                        <p class="testimonial-text">
+                            "I was losing sales because I kept running out of
+                            popular items. Pico Inventory sends me alerts before
+                            it's too late, and I actually trust them. Game
+                            changer for my business."
+                        </p>
+                        <p class="testimonial-author">
+                            — Sarah Chen, Artisan Goods Co.
+                        </p>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="stars">⭐⭐⭐⭐⭐</div>
+                        <p class="testimonial-text">
+                            "Simple, clean interface. No clutter. I can see what
+                            I need at a glance and actually understand what it's
+                            telling me. More apps should be like this."
+                        </p>
+                        <p class="testimonial-author">
+                            — Mike Rodriguez, Urban Essentials
+                        </p>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="stars">⭐⭐⭐⭐⭐</div>
+                        <p class="testimonial-text">
+                            "5 minute setup, and it just works. No complicated
+                            settings or confusing options. Tells me when to
+                            reorder, and I do. That's it."
+                        </p>
+                        <p class="testimonial-author">
+                            — Emily Park, Bloom Boutique
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="cta-section">
+            <div class="container">
+                <div class="cta-content">
+                    <h2>Ready to Grow Your Shop?</h2>
+                    <p>
+                        Start with Pico Inventory. Never run out of stock again.
+                    </p>
+                    <a href="https://apps.shopify.com" class="btn-primary large"
+                        >Get Started Now</a
+                    >
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="container">
+                <div class="footer-content">
+                    <div class="footer-section">
+                        <h3>Grow With Pico</h3>
+                        <p>Tiny tools for growing shops.</p>
+                        <p class="footer-tagline">
+                            The 20% of features that deliver 80% of results.
+                        </p>
+                    </div>
+                    <div class="footer-section">
+                        <h4>Products</h4>
+                        <ul>
+                            <li><a href="#apps">Pico Inventory</a></li>
+                            <li><a href="#apps">Pico Analytics</a></li>
+                            <li><a href="#apps">Pico Reviews</a></li>
+                            <li>
+                                <a href="https://apps.shopify.com"
+                                    >Shopify App Store</a
+                                >
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer-section">
+                        <h4>Company</h4>
+                        <ul>
+                            <li><a href="#features">About</a></li>
+                            <li>
+                                <a href="mailto:brendan@growwithpico.com"
+                                    >Contact</a
+                                >
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer-section">
+                        <h4>Connect</h4>
+                        <ul>
+                            <li>
+                                <a
+                                    href="https://bsky.app/profile/growwithpico.bsky.social"
+                                    target="_blank"
+                                    class="bluesky-link"
+                                >
+                                    <img
+                                        src="images/Bluesky_Logo.svg"
+                                        alt="Bluesky"
+                                        class="bluesky-icon"
+                                    />
+                                    @growwithpico
+                                </a>
+                            </li>
+                            <li>
+                                <a href="mailto:brendan@growwithpico.com"
+                                    >Suggest an App</a
+                                >
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <p>&copy; 2025 Pico Tools. All rights reserved.</p>
+                    <div class="footer-links">
+                        <a href="terms.html">Terms of Service</a>
+                        <a href="privacy.html">Privacy Policy</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <script src="script.js"></script>
+    </body>
 </html>
-
